@@ -1,0 +1,52 @@
+#app-root {
+  text-align: center;
+  padding-top: 12px;
+}
+
+#game-board, #model-container, .game-board-row, .game-tile {
+  padding: 0;
+  margin: 0;
+}
+
+#game-board {
+  display: inline-block;
+}
+
+#model-container {
+  display: inline-block;
+  position: relative;
+}
+
+#tile-hole {
+  background-color: rgb(190, 190, 184);
+}
+
+#win-banner {
+  text-align: center;
+}
+
+/* .game-board-row {
+
+} */
+
+.game-tile {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 3px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+#settings-bar {
+  display: inline-block;
+  position: absolute;
+  /* position: relative; */
+  top: 0;
+  /* right: 0; */
+  /* float: right; */
+  margin-left: 8px;
+}
